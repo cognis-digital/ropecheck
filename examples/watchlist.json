@@ -1,0 +1,52 @@
+{
+  "tokens": [
+    {
+      "name": "Example Safe Token",
+      "symbol": "SAFE",
+      "ownershipRenounced": true,
+      "contractVerified": true,
+      "mintFunctionPresent": false,
+      "canPause": false,
+      "canBlacklist": false,
+      "hasModifiableTax": false,
+      "liquidityLocked": true,
+      "lockDurationDays": 365,
+      "buyTaxPct": 1,
+      "sellTaxPct": 1,
+      "topHolderConcentrationPct": 12,
+      "honeypotSim": "pass"
+    },
+    {
+      "name": "Middling Mid Coin",
+      "symbol": "MID",
+      "ownershipRenounced": false,
+      "contractVerified": true,
+      "mintFunctionPresent": false,
+      "canPause": false,
+      "canBlacklist": false,
+      "hasModifiableTax": true,
+      "liquidityLocked": true,
+      "lockDurationDays": 14,
+      "buyTaxPct": 5,
+      "sellTaxPct": 8,
+      "topHolderConcentrationPct": 33,
+      "honeypotSim": "unknown"
+    },
+    {
+      "name": "Totally Legit Moon Inu",
+      "symbol": "RUG",
+      "ownershipRenounced": false,
+      "contractVerified": false,
+      "mintFunctionPresent": true,
+      "canPause": true,
+      "canBlacklist": true,
+      "hasModifiableTax": true,
+      "liquidityLocked": false,
+      "lockDurationDays": 0,
+      "buyTaxPct": 10,
+      "sellTaxPct": 35,
+      "topHolderConcentrationPct": 78,
+      "honeypotSim": "fail"
+    }
+  ]
+}

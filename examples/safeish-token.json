@@ -1,0 +1,18 @@
+{
+  "name": "Example Safe Token",
+  "symbol": "SAFE",
+  "chain": "ethereum",
+  "address": "0x0000000000000000000000000000000000000001",
+  "ownershipRenounced": true,
+  "contractVerified": true,
+  "mintFunctionPresent": false,
+  "canPause": false,
+  "canBlacklist": false,
+  "hasModifiableTax": false,
+  "liquidityLocked": true,
+  "lockDurationDays": 365,
+  "buyTaxPct": 1,
+  "sellTaxPct": 1,
+  "topHolderConcentrationPct": 12,
+  "honeypotSim": "pass"
+}

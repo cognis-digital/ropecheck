@@ -1,0 +1,38 @@
+{
+  "name": "@cognis-digital/ropecheck",
+  "version": "0.1.0",
+  "description": "Defensive token/contract rug-pull and honeypot risk scanner. Informational only, not financial advice.",
+  "type": "module",
+  "bin": {
+    "ropecheck": "dist/src/cli.js"
+  },
+  "files": [
+    "dist/src",
+    "examples",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "pretest": "npm run build",
+    "test": "node --test --test-concurrency=1 \"dist/test/**/*.test.js\"",
+    "scan": "node dist/src/cli.js scan"
+  },
+  "keywords": [
+    "rug-pull",
+    "honeypot",
+    "token-safety",
+    "defi-security",
+    "scam-detection",
+    "consumer-protection",
+    "cli"
+  ],
+  "author": "Cognis Digital",
+  "license": "SEE LICENSE IN COCL 1.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}

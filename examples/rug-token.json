@@ -1,0 +1,18 @@
+{
+  "name": "Totally Legit Moon Inu",
+  "symbol": "RUG",
+  "chain": "bsc",
+  "address": "0x000000000000000000000000000000000000dead",
+  "ownershipRenounced": false,
+  "contractVerified": false,
+  "mintFunctionPresent": true,
+  "canPause": true,
+  "canBlacklist": true,
+  "hasModifiableTax": true,
+  "liquidityLocked": false,
+  "lockDurationDays": 0,
+  "buyTaxPct": 10,
+  "sellTaxPct": 35,
+  "topHolderConcentrationPct": 78,
+  "honeypotSim": "fail"
+}

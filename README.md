@@ -25,6 +25,31 @@ Maintainer: Cognis Digital
 
 ---
 
+
+<!-- cognis:example:start -->
+## 🔎 Example output
+
+**Sample result format** _(illustrative values — run on your own data for real findings):_
+
+```
+{
+  "rope": {
+    "length": 30.0,
+    "material": "nylon",
+    "condition": "good"
+  },
+  "check_result": "pass",
+  "notes": [
+    {
+      "type": "minor_knot",
+      "location": 10.5
+    }
+  ]
+}
+```
+
+<!-- cognis:example:end -->
+
 ## Install
 
 ```bash
